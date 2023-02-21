@@ -1,0 +1,29 @@
+{
+  "name": "react-amir",
+  "version": "1.0.0",
+  "description": "this is amir learning",
+  "main": "App.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amirsiddiquiin/reactSDK.git"
+  },
+  "author": "amir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amirsiddiquiin/reactSDK/issues"
+  },
+  "homepage": "https://github.com/amirsiddiquiin/reactSDK#readme",
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

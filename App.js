@@ -1,20 +1,45 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-const heading = React.createElement("h1", { id: "title" }, "headng 1");
-const heading2 = React.createElement("h2", { id: "title" }, "heading 2");
 
-const Santa = () => ( <h1>aamir</h1>);
+const style = {
+  border: "1px solid grey",
+};
 
 // react component
 // functional component
-const MyFunction = () => {
+const Header = () => {
   return (
     <div>
-      <Santa />
-      <span>Ki gaand</span>
+      <div style={style}>Header</div>
     </div>
   );
 };
 
+const Footer = () => {
+  return (
+    <>
+      <div>Footer</div>
+    </>
+  );
+};
+
+const Body = () => {
+  return (
+    <>
+      <div>Body</div>
+    </>
+  );
+};
+
+const AppLayout = () => {
+  return (
+    <>
+      <Header />
+      <Body />
+      <Footer />
+    </>
+  );
+};
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<MyFunction />);
+root.render(<AppLayout />);

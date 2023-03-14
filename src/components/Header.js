@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 //Name Import 
 export const Title = () => {
   return (
@@ -23,6 +25,7 @@ const Header = () => {
         <div>
           <Title />
         </div>
+
         <div>
           <ul style={{ display: "flex", listStyleType: "none" }}>
             <li style={{ padding: 10 }}>offer</li>
